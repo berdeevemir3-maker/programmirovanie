@@ -147,3 +147,8 @@ public:
     Triangle& operator/=(double scalar) {
         if (fabs(scalar) < 1e-10) {
             cerr << "Ошибка: деление на ноль.\n";
+Triangle result = (t1 + t2) * 2 - t3 / 1.5;
+    cout << "Сложное выражение (t1 + t2) * 2 - t3 / 1.5: " << result << endl;
+
+    return 0;
+}
